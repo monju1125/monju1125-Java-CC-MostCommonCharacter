@@ -1,0 +1,40 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/MostCommonCharacterTest.java",
+      "testCases": [
+        {
+          "methodName": "mostCommonCharacterTest1",
+          "label": "Verify most common character is '1' in numeric string",
+          "description": "Tests that the recurringChar method correctly identifies '1' as the most frequently occurring character in a long numeric string"
+        },
+        {
+          "methodName": "mostCommonCharacterTest2",
+          "label": "Verify most common character is '4' in numeric string",
+          "description": "Tests that the recurringChar method correctly identifies '4' as the most frequently occurring character in a long numeric string"
+        },
+        {
+          "methodName": "mostCommonCharacterTest3",
+          "label": "Verify most common character is '7' in mixed string",
+          "description": "Tests that the recurringChar method correctly identifies '7' as the most frequently occurring character in a string containing numbers and letters"
+        },
+        {
+          "methodName": "mostCommonCharacterTest4",
+          "label": "Verify most common character is '6' in numeric string",
+          "description": "Tests that the recurringChar method correctly identifies '6' as the most frequently occurring character in a long numeric string with repeated patterns"
+        },
+        {
+          "methodName": "mostCommonCharacterTest5",
+          "label": "Verify most common character is '5' in numeric string",
+          "description": "Tests that the recurringChar method correctly identifies '5' as the most frequently occurring character in a long numeric string with concentrated occurrences"
+        },
+        {
+          "methodName": "mostCommonCharacterTest6",
+          "label": "Verify most common character is 'n' in alphabetic string",
+          "description": "Tests that the recurringChar method correctly identifies 'n' as the most frequently occurring character in a string containing various letters"
+        }
+      ]
+    }
+  ]
+}
